@@ -7,10 +7,10 @@ from typing import List, Optional
 from bson import ObjectId
 from dotenv import load_dotenv
 
-# Import database collections from your database.py file
+# Import db collections from your database.py file
 from database import product_collection, order_collection
 
-# Load environment variables
+# Load env
 load_dotenv()
 
 app = FastAPI(
